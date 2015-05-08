@@ -6,7 +6,24 @@
     public class UnitTest1
     {
         [Test]
-        public void TestMethod1()
+        public void TestMethodSuccess()
+        {
+        }
+
+        [Test]
+        public void TestMethodFail()
+        {
+            Assert.Fail("Some reason");
+        }
+
+
+        [Test, Category("A")]
+        public void TestMethodCatA()
+        {
+        }
+
+        [Test, Category("B")]
+        public void TestMethodCatB()
         {
         }
     }
