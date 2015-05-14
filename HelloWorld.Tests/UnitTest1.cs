@@ -1,4 +1,6 @@
-﻿namespace HelloWorld.Tests
+﻿using System;
+
+namespace HelloWorld.Tests
 {
     using NUnit.Framework;
 
@@ -13,7 +15,7 @@
         [Test]
         public void TestMethodFail()
         {
-            Assert.Fail("Some reason");
+            Assert.Fail("Is64BitProcess={0}", Environment.Is64BitProcess);
         }
 
 
