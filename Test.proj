@@ -5,10 +5,10 @@
 		<CreateItem Include="C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.NUnit2\bin\Debug\*.Tests.NUnit2.dll">
     		<Output TaskParameter="Include" ItemName="NUnit2TestAssembly" />
 	    </CreateItem>
-		<NUnit Assemblies="@(NUnit2TestAssembly)" ToolPath="C:\Program Files (x86)\NUnit-2.6.4\bin" OutputXmlFile="$(NUnitResultsFile)"/>
-		<!--CreateItem Include="HelloWorld.Tests\bin\Debug\*.Tests.dll">
+		<NUnit Assemblies="@(NUnit2TestAssembly)" ToolPath="C:\Program Files (x86)\NUnit-2.6.4\bin"/>
+		<CreateItem Include="HelloWorld.Tests\bin\Debug\*.Tests.dll">
     		<Output TaskParameter="Include" ItemName="NUnit3TestAssembly" />
 	    </CreateItem>
-		<NUnit Assemblies="@(NUnit3TestAssembly)" ToolPath="C:\Projects\GitHub\nunit\bin\Debug" OutputXmlFile="$(NUnitResultsFile)"/-->
+		<NUnit Assemblies="@(NUnit3TestAssembly)" ToolPath="C:\Projects\GitHub\nunit\bin\Debug"/>
 	</Target>
 </Project>
