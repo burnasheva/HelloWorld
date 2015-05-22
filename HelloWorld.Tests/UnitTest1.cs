@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Diagnostics;
+using System.Threading;
+
+using NUnit.Framework;
 
 namespace HelloWorld.Tests
 {
-    using NUnit.Framework;
-
     [TestFixture]
     public class UnitTest1
     {
-        private static Random _rnd = new Random();
+        private static readonly Random Rnd = new Random();
 
         [Test]
         public void TestMethodSuccess()
@@ -96,7 +96,7 @@ namespace HelloWorld.Tests
         {
             var testName = string.Format("Test {0}", testId);
             Console.WriteLine("Start test {0}", testName);
-            System.Threading.Thread.Sleep(_rnd.Next(500));
+            Thread.Sleep(Rnd.Next(500));
             Console.WriteLine("Finish test {0}", testName);
         }
     }
