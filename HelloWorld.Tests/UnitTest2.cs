@@ -12,7 +12,7 @@ namespace HelloWorld.Tests
             throw new Exception("SetUp exception");
         }
 
-        [Test]
+        [Test, Category("SE")]
         public void TestMethodSetUpFailed()
         {
         }
