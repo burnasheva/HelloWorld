@@ -2,7 +2,7 @@
 
 using NUnit.Framework;
 
-namespace HelloWorld.Tests
+namespace HelloWorld.Tests.Ref
 {
     public class UnitTest2
     {
@@ -11,11 +11,11 @@ namespace HelloWorld.Tests
         [SetUp]
         public void SetUp()
         {
-            _class = new SomeClass();
+            this._class = new SomeClass();
         }
 
         [Test, Category("SE")]
-        public void TestMethodSetUpFailed()
+        public void TestMethodRefFailed()
         {
         }
     }
