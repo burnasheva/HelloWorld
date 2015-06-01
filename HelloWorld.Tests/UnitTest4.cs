@@ -7,7 +7,7 @@ namespace HelloWorld.Tests
 {
     [TestFixture]
     [Parallelizable]
-    public class UnitTest1
+    public class UnitTest4
     {
         private static readonly Random Rnd = new Random();
 

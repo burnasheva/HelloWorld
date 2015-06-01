@@ -6,15 +6,18 @@ using NUnit.Framework;
 namespace HelloWorld.Tests
 {
     [TestFixture]
+    [Parallelizable]
     public class UnitTest3
     {
         [Test, Category("OOM")]
+        [Parallelizable]
         public void TestMethodOOM()
         {
             MakeOutOfMemory();
         }
 
         [Test, Category("OOMT")]
+        [Parallelizable]
         public void TestMethodOOMInThread()
         {
             var thread = new Thread(MakeOutOfMemory) { IsBackground = false };
