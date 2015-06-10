@@ -1,0 +1,8 @@
+C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\HelloWorld.Tests.Ref.dll
+C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\HelloWorld.Tests.Ref.pdb
+C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\ClassLibrary1.dll
+C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\nunit.framework.dll
+C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\ClassLibrary1.pdb
+C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\obj\Debug\HelloWorld.Tests.Ref.csprojResolveAssemblyReference.cache
+C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\obj\Debug\HelloWorld.Tests.Ref.dll
+C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\obj\Debug\HelloWorld.Tests.Ref.pdb
