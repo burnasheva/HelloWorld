@@ -19,6 +19,27 @@ namespace HelloWorld.Tests
 
         [Test]
         [Parallelizable]
+        public void TestMethodIgnore()
+        {
+            Assert.Ignore();
+        }
+
+        [Test]
+        [Parallelizable]
+        public void TestMethodInconclusive()
+        {
+            Assert.Inconclusive();
+        }
+
+        [Test, Ignore("Ignore a fixture")]
+        [Parallelizable]
+        public void TestMethodIgnore2()
+        {
+            Assert.Inconclusive();
+        }
+
+        [Test]
+        [Parallelizable]
         public void TestMethodFail()
         {
             Assert.Fail("Is64BitProcess={0}, Thread={1}", Environment.Is64BitProcess, Thread.CurrentThread.GetHashCode());
