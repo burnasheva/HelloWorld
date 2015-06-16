@@ -15,6 +15,8 @@ namespace HelloWorld.Tests
         [Parallelizable]
         public void TestMethodSuccess()
         {
+            var a = new Class1();
+            a = null;
         }
 
         [Test]
