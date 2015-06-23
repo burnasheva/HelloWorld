@@ -16,7 +16,7 @@ namespace HelloWorld.Tests
         public void TestMethodSuccess()
         {
             var a = new Class1();
-            a = null;
+            a.Do();
         }
 
         [Test]
