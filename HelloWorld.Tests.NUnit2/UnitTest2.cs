@@ -10,7 +10,7 @@ namespace HelloWorld.Tests.NUnit2
         [SetUp]
         public void TestSetUp()
         {
-            throw new Exception("Init exception");
+            throw new StackOverflowException("Init exception");
         }
 
         [Test]
