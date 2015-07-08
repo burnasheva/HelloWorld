@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Tests.Ref", "HelloWorld.Tests.Ref\HelloWorld.Tests.Ref.csproj", "{45815CB3-E2B4-4769-AC79-1B14765373A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellowWorld.Tests2", "HellowWorld.Tests2\HellowWorld.Tests2.csproj", "{13DC9685-C722-439F-9D9C-2E04D6B9CB7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Tests2", "HellowWorld.Tests2\HelloWorld.Tests2.csproj", "{13DC9685-C722-439F-9D9C-2E04D6B9CB7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

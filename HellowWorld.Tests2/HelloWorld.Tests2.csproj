@@ -6,8 +6,8 @@
     <ProjectGuid>{13DC9685-C722-439F-9D9C-2E04D6B9CB7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HellowWorld.Tests2</RootNamespace>
-    <AssemblyName>HellowWorld.Tests2</AssemblyName>
+    <RootNamespace>HelloWorld.Tests2</RootNamespace>
+    <AssemblyName>HelloWorld.Tests2</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

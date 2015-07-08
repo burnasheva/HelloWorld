@@ -1,8 +1,6 @@
-﻿using System;
+﻿using NUnit.Framework;
 
-using NUnit.Framework;
-
-namespace HelloWorld.Tests
+namespace HelloWorld.Tests2
 {
     [TestFixture]
     [Parallelizable]
