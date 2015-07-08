@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Tests.Ref", "HelloWorld.Tests.Ref\HelloWorld.Tests.Ref.csproj", "{45815CB3-E2B4-4769-AC79-1B14765373A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HellowWorld.Tests2", "HellowWorld.Tests2\HellowWorld.Tests2.csproj", "{13DC9685-C722-439F-9D9C-2E04D6B9CB7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{45815CB3-E2B4-4769-AC79-1B14765373A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45815CB3-E2B4-4769-AC79-1B14765373A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45815CB3-E2B4-4769-AC79-1B14765373A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DC9685-C722-439F-9D9C-2E04D6B9CB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DC9685-C722-439F-9D9C-2E04D6B9CB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DC9685-C722-439F-9D9C-2E04D6B9CB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DC9685-C722-439F-9D9C-2E04D6B9CB7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
