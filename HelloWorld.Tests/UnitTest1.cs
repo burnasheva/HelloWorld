@@ -42,6 +42,7 @@ namespace HelloWorld.Tests
 
         [Test]
         [Parallelizable]
+        [Category("F")]
         public void TestMethodFail()
         {
             Assert.Fail("Is64BitProcess={0}, Thread={1}", Environment.Is64BitProcess, Thread.CurrentThread.GetHashCode());
