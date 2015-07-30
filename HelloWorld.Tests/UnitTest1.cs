@@ -14,7 +14,6 @@ namespace HelloWorld.Tests
         private static readonly Random Rnd = new Random();
 
         [Test]
-        [Parallelizable]
         [AssertTraffic(AllocatedSizeInBytes = 1000)]
         public void TestMethodSuccess()
         {
