@@ -14,16 +14,10 @@ namespace HelloWorld.Tests
         private static readonly Random Rnd = new Random();
 
         [Test]
-        [AssertTraffic(AllocatedSizeInBytes = 1000)]
         public void TestMethodSuccess()
         {
-            dotMemory.Check(
-                memory =>
-                    {
-                        var a = new Class1();
-                        a.Do();
-                        Assert.AreEqual(10, memory.ObjectsCount);
-                    });
+            var a = new Class1();
+            a.Do();
         }
 
         [Test]
