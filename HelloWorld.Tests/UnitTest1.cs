@@ -5,8 +5,6 @@ using NUnit.Framework;
 
 namespace HelloWorld.Tests
 {
-    using JetBrains.dotMemoryUnit;
-
     [TestFixture]
     [Parallelizable]
     public class UnitTest1
@@ -15,16 +13,10 @@ namespace HelloWorld.Tests
 
         [Test]
         [Parallelizable]
-        [AssertTraffic(AllocatedSizeInBytes = 1000)]
         public void TestMethodSuccess()
         {
-            dotMemory.Check(
-                memory =>
-                    {
-                        var a = new Class1();
-                        a.Do();
-                        Assert.AreEqual(10, memory.ObjectsCount);
-                    });
+            var a = new Class1();
+            a.Do();
         }
 
         [Test]
