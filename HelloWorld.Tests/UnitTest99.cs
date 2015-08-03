@@ -5,6 +5,7 @@ namespace HelloWorld.Tests
     using JetBrains.dotMemoryUnit;
 
     [TestFixture]
+    [Parallelizable]
     public class UnitTest99
     {
         [Test, Category("99")]
