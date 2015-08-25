@@ -6,6 +6,7 @@ namespace HelloWorld
     {
         public void Do()
         {
+            System.Threading.Thread.Sleep(100);
             Console.WriteLine("!!!");
         }
     }
