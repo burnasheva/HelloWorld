@@ -6,3 +6,4 @@ C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\ClassLibrary1.pdb
 C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\obj\Debug\HelloWorld.Tests.Ref.csprojResolveAssemblyReference.cache
 C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\obj\Debug\HelloWorld.Tests.Ref.dll
 C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\obj\Debug\HelloWorld.Tests.Ref.pdb
+C:\Projects\GitHub\HelloWorld\HelloWorld.Tests.Ref\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
