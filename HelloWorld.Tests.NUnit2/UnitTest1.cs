@@ -10,6 +10,8 @@ namespace HelloWorld.Tests.NUnit2
         [Test]
         public void TestMethod1()
         {
+            var obj = new Class1();
+            obj.Do();
         }
 
         [Test, Category("F")]
