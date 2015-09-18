@@ -5,6 +5,6 @@
 		<CreateItem Include="HelloWorld.Tests\bin\Debug\*.Tests.dll">
     		<Output TaskParameter="Include" ItemName="NUnit3TestAssembly" />
 	    </CreateItem>
-		<NUnit Assemblies="@(NUnit3TestAssembly)" ToolPath="C:\Projects\GitHub\nunit\bin\Debug"/>
+		<NUnit Assemblies="@(NUnit3TestAssembly)" ToolPath="C:\Program Files (x86)\NUnit.org\bin"/>
 	</Target>
 </Project>
