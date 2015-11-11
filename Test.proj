@@ -6,7 +6,7 @@
 		<CreateItem Include="HelloWorld.Tests.NUnit2\bin\Debug\*.Tests.NUnit2.dll">
     		<Output TaskParameter="Include" ItemName="NUnit2TestAssembly" />
 	    </CreateItem>
-		<JetBrains.BuildServer.MSBuildLoggers.NUnit Assemblies="@(NUnit2TestAssembly)"/>
+		<JetBrains.BuildServer.MSBuildLoggers.NUnit Assemblies="@(NUnit2TestAssembly)" ToolPath="C:\Program Files (x86)\NUnit 2.6.4\bin"/>
 		<!--CreateItem Include="HelloWorld.Tests\bin\Debug\*.Tests.dll">
     		<Output TaskParameter="Include" ItemName="NUnit3TestAssembly" />
 	    </CreateItem>
