@@ -11,7 +11,7 @@ namespace HelloWorld.Tests
         private static readonly Random Rnd = new Random();
 
         [Test]
-        [Category("TW-42399")]
+        [Category("TW42399")]
         public void TestMethodConfig()
         {
             Console.Write(System.IO.Path.GetFileName(AppDomain.CurrentDomain.SetupInformation.ConfigurationFile));
