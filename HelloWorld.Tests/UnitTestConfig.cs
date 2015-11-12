@@ -17,6 +17,7 @@ namespace HelloWorld.Tests
             Console.Write(System.IO.Path.GetFileName(AppDomain.CurrentDomain.SetupInformation.ConfigurationFile));
             var message = ConfigurationManager.AppSettings["TestMessage"];
             Assert.IsNotNull(message);
+            Assert.AreEqual("Test message", message);
         }
     }
 }
